@@ -1,3 +1,4 @@
 node_modules/
 *.js
 !lib/darwin/find_system_node.js
+!test.js

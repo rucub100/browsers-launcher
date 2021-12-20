@@ -5,7 +5,8 @@
   "scripts": {
     "build-prod": "tsc --project .",
     "clean": "node scripts/clean.js || true",
-    "clean-deps": "rm -rf node_modules"
+    "clean-deps": "rm -rf node_modules",
+    "test": "node test.js"
   },
   "dependencies": {
     "bluebird": "3.5.3",
